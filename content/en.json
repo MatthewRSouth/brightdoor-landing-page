@@ -1,0 +1,160 @@
+{
+  "lang": "en",
+  "langLabel": "Language",
+  "meta": {
+    "title": "Brightdoor | Bilingual school websites with tour booking",
+    "description": "Bilingual, phone-first websites with tour booking for international schools and preschools in Kansai. Founding price of ¥100,000 for the first five schools."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "mainNav": "Main"
+  },
+  "nav": {
+    "how": "How it works",
+    "offer": "Founding offer",
+    "faq": "FAQ",
+    "cta": "Free website review"
+  },
+  "hero": {
+    "chip": "Websites for international schools & preschools in Kansai",
+    "title": "The easiest school in town to visit.",
+    "body": "Brightdoor builds bilingual, phone-first websites with tour booking built in. Parents pick a time in a few taps, and the request lands in your inbox.",
+    "primary": "Get a free website review",
+    "secondary": "See the founding offer",
+    "byline": "Built by an international school teacher in Osaka."
+  },
+  "demo": {
+    "label": "Try it: this is what parents see",
+    "school": "Sample school",
+    "title": "Book a visit",
+    "day": "Day",
+    "time": "Time",
+    "days": [
+      "Thu 13",
+      "Sat 15",
+      "Tue 18"
+    ],
+    "times": [
+      "10:00",
+      "14:00"
+    ],
+    "request": "Request a visit on {when}",
+    "sentTitle": "Visit requested",
+    "sentBody": "The school confirms by email.",
+    "again": "Try it again"
+  },
+  "path": {
+    "title": "One path, from search to school visit.",
+    "lead": "Every page moves a curious parent one step closer to your door.",
+    "steps": [
+      {
+        "title": "Found",
+        "body": "Page titles, descriptions and your Google Maps location set up properly, so nearby parents find you."
+      },
+      {
+        "title": "Understood",
+        "body": "Natural English and Japanese, designed for the phone in a parent's hand."
+      },
+      {
+        "title": "Booked",
+        "body": "A visit request in a few taps, straight to your inbox. No phone calls during office hours."
+      }
+    ]
+  },
+  "offer": {
+    "title": "The founding offer.",
+    "lead": "One clear price for the first five schools.",
+    "price": "¥100,000",
+    "priceNote": "one-time",
+    "included": [
+      "Up to 5 pages",
+      "English and Japanese",
+      "Tour booking & inquiry form",
+      "Phone-first design",
+      "Search & Google Maps setup",
+      "2 rounds of changes"
+    ],
+    "cta": "Claim a founding spot",
+    "spotsLeft": "{n} of 5 spots open",
+    "spotOpen": "Open",
+    "spotTaken": "Taken",
+    "spotsNote": "The founding price ends after the fifth school.",
+    "careTitle": "Monthly care plan",
+    "careOptional": "optional",
+    "carePrice": "¥15,000 / month",
+    "careBody": "Hosting, security updates and small text or photo changes.",
+    "footnote": "Your school supplies its text and photos. Extra pages, a homepage video or copywriting are quoted separately."
+  },
+  "process": {
+    "title": "Four steps to a new front door.",
+    "lead": "Online or by email, in English or Japanese.",
+    "stepLabel": "Step {n}",
+    "steps": [
+      {
+        "title": "Free review",
+        "body": "One page on your current site, with three ideas to improve it."
+      },
+      {
+        "title": "Send your story",
+        "body": "Photos, programs and the questions parents ask most."
+      },
+      {
+        "title": "Review the design",
+        "body": "See the site before launch. Two rounds of changes included."
+      },
+      {
+        "title": "Go live",
+        "body": "Visit requests start arriving in your inbox."
+      }
+    ]
+  },
+  "about": {
+    "photo": "[Your photo]",
+    "photoAlt": "Placeholder for your photo",
+    "title": "A teacher who builds websites.",
+    "body": "I'm Matthew, an English teacher at an international school in Osaka and a web developer. I've built my own school's sign-in, enrollment and contract systems, and I hear every day what parents ask before they enroll.",
+    "nextLabel": "Coming next",
+    "nextBody": "The Brightdoor school platform: sign-in, enrollment contracts and teachers' daily records in one place. Website clients get first access."
+  },
+  "faq": {
+    "title": "Questions schools ask.",
+    "items": [
+      {
+        "q": "We already have a website. Can you redo it?",
+        "a": "Yes. Start with the free review to see exactly what would change."
+      },
+      {
+        "q": "Do we need to write the text ourselves?",
+        "a": "You send the details and photos, and I organize them into pages. Full copywriting is available as an extra."
+      },
+      {
+        "q": "Do parents need an account to book?",
+        "a": "No. They choose a time, leave their details and send. You get the request by email."
+      },
+      {
+        "q": "Who owns the website and domain?",
+        "a": "[CONFIRM: e.g. your school owns its domain and content, and keeps them if it leaves the care plan.]"
+      },
+      {
+        "q": "Do you work with schools outside Osaka?",
+        "a": "Yes. Everything happens online or by email."
+      }
+    ]
+  },
+  "contact": {
+    "title": "See what I'd change first.",
+    "body": "A free one-page review of your current site, with three ideas.",
+    "email": "Request a free review",
+    "instagram": "Message on Instagram"
+  },
+  "footer": {
+    "tag": "Websites for schools · Osaka, Japan",
+    "privacy": "Privacy policy",
+    "copyright": "© {year} Brightdoor"
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "body": "The link may be out of date, or the page has moved.",
+    "home": "Back to the homepage"
+  }
+}

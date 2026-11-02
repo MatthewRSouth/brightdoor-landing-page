@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# personal / AI-assistant files (kept local)
+CLAUDE.md
+CLAUDE*.md
+AGENTS.md
+DESIGN.md
+PLAN*.md
+plans/
+.claude/
+.agents/
+skills-lock.json
+
+# local browser-test screenshots
+.playwright-mcp/

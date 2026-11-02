@@ -109,8 +109,7 @@
     ]
   },
   "about": {
-    "photo": "[Your photo]",
-    "photoAlt": "Placeholder for your photo",
+    "photoAlt": "Matthew South, founder of Brightdoor",
     "title": "A teacher who builds websites.",
     "body": "I'm Matthew, an English teacher at an international school in Osaka and a web developer. I've built my own school's sign-in, enrollment and contract systems, and I hear every day what parents ask before they enroll.",
     "nextLabel": "Coming next",
@@ -133,7 +132,7 @@
       },
       {
         "q": "Who owns the website and domain?",
-        "a": "[CONFIRM: e.g. your school owns its domain and content, and keeps them if it leaves the care plan.]"
+        "a": "Your school owns its domain and all its content. If you leave the care plan, I’ll hand everything over."
       },
       {
         "q": "Do you work with schools outside Osaka?",

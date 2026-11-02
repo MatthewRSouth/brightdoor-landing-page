@@ -1,3 +1,5 @@
+import Image from "next/image";
+import headshot from "@/content/headshot.jpeg";
 import type { Dictionary } from "@/lib/i18n";
 import { stagger } from "@/lib/motion";
 
@@ -9,16 +11,18 @@ export function About({ copy }: AboutProps) {
   return (
     <section aria-labelledby="about-title" className="section-pad">
       <div className="container-site grid items-center gap-10 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] md:gap-16">
-        {/* Placeholder until the real photo is supplied */}
         <div
-          role="img"
-          aria-label={copy.photoAlt}
           data-reveal=""
-          className="arch-photo mx-auto flex aspect-[3/4] w-full max-w-[360px] items-center justify-center bg-sky"
+          className="arch-photo relative mx-auto aspect-[3/4] w-full max-w-[360px] overflow-hidden bg-sky"
         >
-          <span aria-hidden="true" className="text-[15px] font-bold text-ink2">
-            {copy.photo}
-          </span>
+          <Image
+            src={headshot}
+            alt={copy.photoAlt}
+            fill
+            sizes="(min-width: 768px) 360px, 90vw"
+            placeholder="blur"
+            className="object-cover"
+          />
         </div>
 
         <div>

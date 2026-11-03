@@ -6,7 +6,6 @@ export const FOUNDING_SPOTS_TAKEN = 0;
 
 export const CONTACT_EMAIL = "brightdoorcontact@gmail.com";
 export const REVIEW_MAILTO = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Free website review")}`;
-export const FOUNDING_MAILTO = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Founding offer")}`;
 
 export const INSTAGRAM_HANDLE = "getbrightdoor";
 export const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;

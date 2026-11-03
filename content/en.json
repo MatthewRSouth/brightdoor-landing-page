@@ -143,8 +143,30 @@
   "contact": {
     "title": "See what I'd change first.",
     "body": "A free one-page review of your current site, with three ideas.",
-    "email": "Request a free review",
-    "instagram": "Message on Instagram"
+    "instagram": "Message on Instagram",
+    "form": {
+      "name": "Your name",
+      "school": "School name",
+      "email": "Email",
+      "website": "Current website",
+      "message": "Anything I should know?",
+      "optional": "optional",
+      "submit": "Request my free review",
+      "sending": "Sending…",
+      "privacyNote": "I'll only use these details to reply to your request.",
+      "orEmail": "Prefer email? Write to {email}",
+      "sentTitle": "Thank you. Your request is in.",
+      "sentBody": "I'll reply by email with your one-page review.",
+      "errors": {
+        "required": "Please fill this in.",
+        "email": "Please enter a valid email address.",
+        "url": "Please enter a web address, like example.com.",
+        "tooLong": "This is too long. Please shorten it.",
+        "invalid": "Please check the highlighted fields.",
+        "send": "Sorry, your request couldn't be sent. Please email {email} instead.",
+        "rateLimited": "You've sent several requests in a short time. Please try again later, or email {email}."
+      }
+    }
   },
   "footer": {
     "tag": "Websites for schools · Osaka, Japan",

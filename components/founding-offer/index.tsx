@@ -1,4 +1,4 @@
-import { FOUNDING_MAILTO, FOUNDING_SPOTS_TAKEN, FOUNDING_SPOTS_TOTAL } from "@/lib/config";
+import { FOUNDING_SPOTS_TAKEN, FOUNDING_SPOTS_TOTAL } from "@/lib/config";
 import { format, type Dictionary } from "@/lib/i18n";
 import { stagger } from "@/lib/motion";
 
@@ -39,7 +39,7 @@ export function FoundingOffer({ copy }: FoundingOfferProps) {
               ))}
             </ul>
 
-            <a href={FOUNDING_MAILTO} className="btn btn-primary mt-8 w-full sm:w-auto">
+            <a href="#contact" className="btn btn-primary mt-8 w-full sm:w-auto">
               {copy.cta}
             </a>
           </div>

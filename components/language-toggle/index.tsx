@@ -46,6 +46,20 @@ function currentPosition(nav: HTMLElement | null): ReadingPosition | null {
   return { sectionIndex: index, progress: Math.max(0, (top - rect.top) / rect.height) };
 }
 
+/** Reads a saved position defensively: storage is user-editable, so anything malformed is ignored. */
+function parsePosition(saved: string | null): ReadingPosition | null {
+  if (!saved) return null;
+  try {
+    const value: unknown = JSON.parse(saved);
+    if (typeof value !== "object" || value === null) return null;
+    const { sectionIndex, progress } = value as Record<string, unknown>;
+    if (!Number.isInteger(sectionIndex) || typeof progress !== "number" || !Number.isFinite(progress)) return null;
+    return { sectionIndex: sectionIndex as number, progress: Math.min(Math.max(progress, 0), 1) };
+  } catch {
+    return null;
+  }
+}
+
 function restorePosition(nav: HTMLElement | null, position: ReadingPosition) {
   const parts = pageParts(nav);
   const section = parts && sectionsOf(parts.main)[position.sectionIndex];
@@ -76,8 +90,8 @@ export function LanguageToggle({ lang, label }: LanguageToggleProps) {
     } catch {
       // Storage blocked (private mode etc.): the page simply stays where the browser leaves it.
     }
-    if (!saved) return;
-    const position = JSON.parse(saved) as ReadingPosition;
+    const position = parsePosition(saved);
+    if (!position) return;
 
     // The new page can arrive in parts (streamed), so it may briefly be too short to hold the
     // reading position. Wait until it's on screen, then keep re-applying the position while

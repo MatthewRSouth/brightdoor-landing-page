@@ -33,7 +33,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         <Process copy={dict.process} />
         <About copy={dict.about} />
         <Faq copy={dict.faq} />
-        <ContactCta copy={dict.contact} />
+        <ContactCta lang={lang} copy={dict.contact} />
       </main>
       <SiteFooter copy={dict.footer} />
       <RevealOnScroll />
